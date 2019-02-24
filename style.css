@@ -1,43 +1,64 @@
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    text-decoration-color: #777;
+    color: #777;
     background-color: #777;
-    width: '960px';
-    font-size: "18px" }
-header {background: #ebebeb;
+    width: 960px;
+    height: 405px;
+    font-size: 18px;
+    }
+header {background-color: #ebebeb;
         text-align: center;
-        clear: both;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border: 1px}
+        margin: 10px;
+        padding: 30px;}
 
 nav {background: #ebebeb;
-    width: '495px';
     text-align: center;
-    clear: both;
-    float: initial}
+    margin: 10px;
+    padding: 30px}
 
 section {background: #ebebeb;
         float: left;
         text-align: center;
-        width: 495px;
+        padding: 13px;
+        margin: 10px;
+        width: 478px;
+        height: 311px;
         clear: left}
 
 aside {background: #ebebeb;
        float: right;
        text-align: center;
-       width: 495px;
+      padding: 10px;
+      margin: 9px;
+      width: 398px;
+      height: 318px;
       clear: right}
 
 footer {background: #ebebeb;
         clear: both;
-        text-align: center}
+        text-align: center;
+       margin: 10px;
+       padding: 30px;
+        }
 
-article {color: #ebebeb;
-        background: #777;}
+article {background: #777;
+        color: #ebebeb;
+        margin: -6px;
+        width: 466px;
+        float: left;
+        clear: left;
+        border-style: solid;
+        border-color: #777;
+        border-width: 10px}
+#custom {
+    background: #777;
+    padding: 10px;
+}
+        
 h1 {color: #777;
-    background: #ebebeb}
+    background: #ebebeb;
+    padding: 10px;}
 
 p {color: #777;
    background: #ebebeb;
-   clear: both}
+    padding: 10px;}
